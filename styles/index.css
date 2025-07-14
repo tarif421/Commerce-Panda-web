@@ -1,3 +1,5 @@
+/* common css  */
+
 *{
  box-sizing: border-box;
 }
@@ -5,6 +7,16 @@
     max-width:1280px ;
     margin: auto;
 }
+
+.panda-btn {
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);;
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+/* nav style   */
 nav {
     display: flex;
     gap: 56px;
@@ -39,5 +51,35 @@ nav {
     text-decoration: none;
     color: #707070;
     font-weight: 600;
-    font-size: 16px;
+}
+    
+/* Banner  */
+
+.banner {
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    padding:30px ;
+    border-radius:15px ;
+}
+.banner h2 {
+color: rgb(31, 31, 31);
+font-size: 52px;
+font-weight: bold;
+}
+.banner p {
+    color: #4E4E4E;
+}
+.banner-price {
+    color: #FF136F;
+    font-weight: bold;
+    font-size: 50px;
+    display: block;
+
+}
+.banner img {
+    width: 400px;
+    height: 380px;
 }
